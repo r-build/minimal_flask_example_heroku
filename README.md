@@ -1,3 +1,5 @@
+Tweaked with Rachael's day 2 example code
+
 
 Here's a quick guide to each of the files and information whether you need to edit each:
 
