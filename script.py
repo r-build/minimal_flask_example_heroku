@@ -1,10 +1,8 @@
 import json
 from flask import Flask, request
 from serve import useless_function  
-
-from serve import get_keywords_api
-# I've commented out the last import above because it won't work in kernels, 
-# but you should uncomment it when we build our app tomorrow
+from serve import get_keywords_api_python
+from serve import get_keywords_api_r
 
 # create an instance of Flask
 app = Flask(__name__)
