@@ -1,2 +1,6 @@
 gunicorn
 flask
+pickle
+flashtext
+json
+serve
