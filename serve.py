@@ -13,11 +13,12 @@ def get_keywords_api_python():
     # Function to apply our model & extract keywords from a 
     # provided bit of text
     def keywords_api_python(keyword_processor_python, text, span_info=True): 
-        keywords_found = keyword_processor_python.extract_keywords(text, span_info=True)      
-        return keywords_found
+        keywords_found_python = keyword_processor_python.extract_keywords(text, span_info=True)      
+        return keywords_found_python
     
     # return the function we just defined
     return keywords_api_python
+
 
 def get_keywords_api_r():
     
@@ -28,11 +29,12 @@ def get_keywords_api_r():
     # Function to apply our model & extract keywords from a 
     # provided bit of text
     def keywords_api_r(keyword_processor_r, text, span_info=True): 
-        keywords_found = keyword_processor_r.extract_keywords(text, span_info=True)      
-        return keywords_found
+        keywords_found_r = keyword_processor_r.extract_keywords(text, span_info=True)      
+        return keywords_found_r
     
     # return the function we just defined
     return keywords_api_r
+
 
 def useless_function():
     """ 
