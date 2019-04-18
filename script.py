@@ -8,7 +8,7 @@ from serve import get_keywords_api_r
 app = Flask(__name__)
 
 # Define our "ping" end point
-@app.route('/ping')
+@app.route('/ping', methods=['GET'])
 def useless_output():
   return(useless_function())
 
