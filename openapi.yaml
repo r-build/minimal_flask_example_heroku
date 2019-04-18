@@ -17,7 +17,7 @@ paths:
               schema:
                 type: string
 
-/extractpackagespython:
+/extractpackages_python:
     post:
       description: "Extract Python package names"
 
@@ -34,7 +34,7 @@ paths:
            application/json: {}
 
 
-/extractpackagesR:
+/extractpackages_r:
     post:
       description: "Extract R package names"
 
