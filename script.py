@@ -41,8 +41,8 @@ def extractpackages_python():
     return response
 
 # Define a post method for our API.
-@app.route('/extractpackages_python_r', methods=['POST'])
-def extractpackages_python_r():
+@app.route('/extractpackages_r', methods=['POST'])
+def extractpackages_r():
     """ 
     Takes in a json file, extracts the keywords &
     their indices and then returns them as a json file.
@@ -51,7 +51,7 @@ def extractpackages_python_r():
     input_data = request.json
 
     # use our API function to get the keywords
-    output_data = keywords_api_python_r(input_data)
+    output_data = keywords_api_r(input_data)
 
     # convert our dictionary into a .json file
     # (returning a dictionary wouldn't be very
